@@ -1,0 +1,13 @@
+Installation steps:-
+Install miniconda from below link (ignore if already installed):
+https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+
+open command prompt and write below commands:
+conda create -p ./envs python=3.10 -y
+conda activate envs/
+pip install -r requirements.txt
+
+Starting app:
+open command prompt and write below commands:
+conda activate envs/
+streamlit run app.py
